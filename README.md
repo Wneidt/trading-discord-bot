@@ -4,21 +4,21 @@ Use TICKER ("AMZN", "AAPL", "MSFT" etc.) of the company insteead of the company 
 
 Insert your own TOKEN if you want to use the bot
 
-##Run
+## Run
 ```
 python bot.py
 ```
 
-##Features
--Check price of certain shares
--Check fundamental of the company 
--Get cash flow
--Get quote
--Get income statement
--Get day gainers and losers
--Get live price
+## Features
+- Check price of certain shares
+- Check fundamental of the company 
+- Get cash flow
+- Get quote
+- Get income statement
+- Get day gainers and losers
+- Get live price
 
-##Requirements
+## Requirements
 ```
 pip install yahoo_fin
 pip install requests_html
