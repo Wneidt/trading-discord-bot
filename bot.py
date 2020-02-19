@@ -14,7 +14,7 @@ def stock(ticker):
 @client.event
 async def on_ready():
     print('Bot is ready')
-
+# all of the bot commands are below
 @client.command()
 async def price(ctx, *, ticker):
     await ctx.send('latest price is: ' + stock(ticker))
